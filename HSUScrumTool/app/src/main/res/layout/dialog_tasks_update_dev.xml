@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/dialog_tasks_update_dev_btnTodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Do" />
+
+    <Button
+        android:id="@+id/dialog_tasks_update_dev_btnDoing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doing" />
+
+    <Button
+        android:id="@+id/dialog_tasks_update_dev_btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done" />
+
+
+</LinearLayout>

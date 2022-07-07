@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">HSU Scrum Tool</string>
+    <string name="title_activity_scrum_mater">ScrumMaterActivity</string>
+    <string name="title_activity_main_product_owner">ProductOwnerActivity</string>
+    <string name="title_activity_developer">DeveloperActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Function -->
+    <string name="About_Us">About Us</string>
+    <string name="Account">Account</string>
+    <string name="Process">Process</string>
+    <string name="Product_Backlog">Product Backlog</string>
+    <string name="Project">Project</string>
+    <string name="Scrum_Meeting">Scrum Meeting</string>
+    <string name="Sprint_Backlog">Sprint Backlogs</string>
+    <string name="Sprint_Events">Sprint Events</string>
+    <string name="Sprints_Management">Sprints Management</string>
+    <string name="Statistic">Statistic</string>
+    <string name="Tasks_Developer">Tasks Developer</string>
+    <string name="Sprint_Event_Developer">Sprint Event Developer</string>
+    <string name="Tasks_Scrum_Master">Tasks Scrum Master</string>
+    <string name="Tasks_Statistical">Tasks Statistical</string>
+    <!-- Role -->
+    <string name="Product_Owner">Product Owner</string>
+    <string name="Scrum_Mater">Scrum Master</string>
+    <string name="Developer">Developer</string>
+    <string name="Role">Choose a role</string>
+</resources>

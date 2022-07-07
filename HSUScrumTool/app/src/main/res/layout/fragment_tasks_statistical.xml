@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tuananh.hsuscrumtool.activities.Developer.TasksStatisticalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Tasks_Statistical" />
+
+    <TextView
+        android:id="@+id/fragment_tasks_statistical_tv_num_of_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="Number of tasks: " />
+
+    <TextView
+        android:id="@+id/fragment_tasks_statistical_tv_num_of_todo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:text="Number of To-do tasks:" />
+
+    <TextView
+        android:id="@+id/fragment_tasks_statistical_tv_num_of_doing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:text="Number of Doing tasks: " />
+
+    <TextView
+        android:id="@+id/fragment_tasks_statistical_tv_num_of_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:text="Number of Done tasks: " />
+
+</LinearLayout>

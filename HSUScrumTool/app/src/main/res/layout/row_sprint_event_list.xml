@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/row_sprint_event_list_tv_sprint_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Sprint: " />
+
+    <TextView
+        android:id="@+id/row_sprint_event_list_tv_event_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:text="Event Type:" />
+
+    <TextView
+        android:id="@+id/row_sprint_event_list_tv_event_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:text="Event Date: " />
+
+    <TextView
+        android:id="@+id/row_sprint_event_list_tv_event_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:text="Content: " />
+
+</LinearLayout>

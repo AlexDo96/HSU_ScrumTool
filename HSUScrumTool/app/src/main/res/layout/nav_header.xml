@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="bottom">
+
+
+    <TextView
+        android:id="@+id/txt_View1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:allowUndo="false"
+        android:editable="false"
+        android:text="Nguyễn Văn A"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_View2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="A.NguyenVan@gmail.com"
+        android:textSize="10sp" />
+</LinearLayout>
